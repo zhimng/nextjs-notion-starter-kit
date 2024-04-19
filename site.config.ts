@@ -2,11 +2,11 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '31d8b0cd4c0d48fe943462f39e3cecc7',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: '31d8b0cd4c0d48fe943462f39e3cecc7',
+  rootNotionSpaceId: null,
 
   // basic site info (required)
   name: 'Next.js Notion Starter Kit',
